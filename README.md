@@ -62,6 +62,7 @@
 
 ```text
 contest2026_435_UdifyFun/
+├── .claude/skills/             # 项目沉淀的可复用 Skills（4 个，见 commit）
 ├── app/apollia_hub/            # ★ 圆屏 Hub demo（本仓核心交付）
 │   ├── apollia_hub_main.c      #   UI + 传感器弧 + 粒子 + 自动演奏 + MIDI 输出
 │   ├── Kconfig / CMakeLists.txt / Make.defs / Makefile
