@@ -1,0 +1,15 @@
+#
+# For a description of the syntax of this configuration file,
+# see the file kconfig-language.txt in the NuttX tools repository.
+#
+
+config LVX_USE_DEMO_CONTEST2026_435_APOLLIA_HUB
+	bool "Contest 2026 team 435 Apollia siren-instrument hub"
+	default n
+	depends on GRAPHICS_LVGL
+	---help---
+		Enable the contest 2026 team 435 (UdifyFun) Apollia Hub: a
+		round-screen "siren's vortex" visualizer for the wearable
+		chord/melody instrument. Touch sensors to play chords and
+		melody, drag the core for effect wetness, and stream USB-MIDI
+		to the host DAW. See docs/apollia_design.md for the design.

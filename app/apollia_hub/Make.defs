@@ -1,0 +1,7 @@
+############################################################################
+# Contest 2026 team 435 (UdifyFun) apollia_hub - Make.defs
+############################################################################
+
+ifneq ($(CONFIG_LVX_USE_DEMO_CONTEST2026_435_APOLLIA_HUB),)
+CONFIGURED_APPS += $(APPDIR)/packages/demos/contest2026_435_apollia_hub
+endif
