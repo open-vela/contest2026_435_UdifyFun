@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, sans-serif">
+  <!-- round bezel -->
+  <circle cx="200" cy="200" r="196" fill="#050b1a" stroke="#1e3a5a" stroke-width="2"/>
+  <circle cx="200" cy="200" r="188" fill="none" stroke="#2dd4bf" stroke-opacity="0.15"/>
+
+  <!-- header -->
+  <text x="200" y="42" text-anchor="middle" font-size="21" font-weight="700" letter-spacing="4" fill="#2dd4bf">APOLLIA</text>
+  <text x="200" y="62" text-anchor="middle" font-size="11" fill="#5f8aa3">~ SIREN HUB ~</text>
+
+  <!-- siren choir roles on the top arc -->
+  <g font-size="10" text-anchor="middle">
+    <circle cx="125" cy="70" r="8" fill="#ff9f2e" fill-opacity="0.25" stroke="#ff9f2e"/>
+    <text x="125" y="92" fill="#ff9f2e">DRUM</text>
+    <circle cx="174" cy="52" r="8" fill="#bf5af2" fill-opacity="0.25" stroke="#bf5af2"/>
+    <text x="174" y="74" fill="#bf5af2">PAD</text>
+    <circle cx="226" cy="52" r="8" fill="#30d158" fill-opacity="0.25" stroke="#30d158"/>
+    <text x="226" y="74" fill="#30d158">RHY</text>
+    <circle cx="275" cy="70" r="8" fill="#ff5470" fill-opacity="0.25" stroke="#ff5470"/>
+    <text x="275" y="92" fill="#ff5470">LEAD</text>
+  </g>
+
+  <!-- left hand chord arc -->
+  <g>
+    <circle cx="98"  cy="141" r="7" fill="#ffb020"/>
+    <circle cx="89"  cy="160" r="7" fill="#6c8cff"/>
+    <circle cx="84"  cy="180" r="7" fill="#ffb020"/>
+    <circle cx="82"  cy="200" r="7" fill="#6c8cff"/>
+    <circle cx="84"  cy="220" r="7" fill="#ffb020"/>
+    <circle cx="89"  cy="240" r="7" fill="#6c8cff"/>
+    <circle cx="98"  cy="259" r="7" fill="#ff5470"/>
+    <text x="70" y="205" text-anchor="middle" font-size="10" fill="#7fa3b8" transform="rotate(-90 70 205)">CHORDS</text>
+  </g>
+
+  <!-- right hand melody arc -->
+  <g fill="#41e0d0">
+    <circle cx="302" cy="141" r="7"/><circle cx="311" cy="160" r="7"/>
+    <circle cx="316" cy="180" r="7"/><circle cx="318" cy="200" r="7"/>
+    <circle cx="316" cy="220" r="7"/><circle cx="311" cy="240" r="7"/>
+    <circle cx="302" cy="259" r="7"/>
+    <text x="330" y="205" text-anchor="middle" font-size="10" fill="#7fa3b8" transform="rotate(90 330 205)">MELODY</text>
+  </g>
+
+  <!-- particle flying into the core -->
+  <circle cx="140" cy="178" r="3.5" fill="#ffb020"/>
+  <circle cx="158" cy="186" r="2.5" fill="#ffb020" fill-opacity="0.55"/>
+  <circle cx="255" cy="212" r="3" fill="#41e0d0" fill-opacity="0.8"/>
+
+  <!-- sonar ripples + core -->
+  <g fill="none" stroke="#2dd4bf">
+    <circle cx="200" cy="200" r="49" stroke-opacity="0.45"/>
+    <circle cx="200" cy="200" r="60" stroke-opacity="0.22"/>
+  </g>
+  <circle cx="200" cy="200" r="35" fill="#0b2a3f" stroke="#38bdf8" stroke-width="2"/>
+  <text x="200" y="205" text-anchor="middle" font-size="14" font-weight="700" fill="#bfe8f0">SIREN</text>
+
+  <!-- bottom-left: INST -->
+  <text x="122" y="305" text-anchor="middle" font-size="11" fill="#ffb020">PIANO</text>
+  <rect x="95" y="318" width="55" height="26" rx="9" fill="#0e3a4a" stroke="#2dd4bf" stroke-opacity="0.5"/>
+  <text x="122" y="335" text-anchor="middle" font-size="11" fill="#bfe8f0">INST</text>
+
+  <!-- bottom-right: AUTO -->
+  <text x="277" y="305" text-anchor="middle" font-size="11" fill="#41e0d0">WET 64</text>
+  <rect x="250" y="318" width="55" height="26" rx="9" fill="#0e3a4a" stroke="#2dd4bf" stroke-opacity="0.5"/>
+  <text x="277" y="335" text-anchor="middle" font-size="11" fill="#bfe8f0">AUTO</text>
+
+  <!-- bottom center -->
+  <text x="200" y="360" text-anchor="middle" font-size="10" fill="#8fb3c7">USB-MIDI tx 42</text>
+</svg>

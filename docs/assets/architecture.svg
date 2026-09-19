@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 330" width="920" height="330" font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, sans-serif">
+  <rect width="920" height="330" rx="16" fill="#050b1a"/>
+
+  <text x="460" y="38" text-anchor="middle" font-size="20" font-weight="700" fill="#eaf6fa">系统架构 — 从指尖到 DAW 的歌声链路</text>
+
+  <!-- data path blocks -->
+  <g font-size="13">
+    <rect x="30" y="105" width="170" height="96" rx="12" fill="#0d1e36" stroke="#2dd4bf" stroke-opacity="0.5"/>
+    <text x="115" y="132" text-anchor="middle" font-size="14" font-weight="700" fill="#2dd4bf">① 指环传感器 ×14</text>
+    <text x="115" y="155" text-anchor="middle" fill="#b9d4e2">掌心面：压感 0-127 + RGB</text>
+    <text x="115" y="174" text-anchor="middle" fill="#b9d4e2">手背面：角色呼吸灯</text>
+    <text x="115" y="193" text-anchor="middle" fill="#7fa3b8">每手 7 环 · 磁吸指环形态</text>
+
+    <rect x="250" y="105" width="170" height="96" rx="12" fill="#0d1e36" stroke="#2dd4bf" stroke-opacity="0.5"/>
+    <text x="335" y="132" text-anchor="middle" font-size="14" font-weight="700" fill="#2dd4bf">② 手套主机（腕部）</text>
+    <text x="335" y="155" text-anchor="middle" fill="#b9d4e2">MCU · 6 轴 IMU</text>
+    <text x="335" y="174" text-anchor="middle" fill="#b9d4e2">电池 · BLE 发射</text>
+    <text x="335" y="193" text-anchor="middle" fill="#7fa3b8">手势识别在本地完成</text>
+
+    <rect x="470" y="105" width="170" height="96" rx="12" fill="#10263f" stroke="#38bdf8"/>
+    <text x="555" y="132" text-anchor="middle" font-size="14" font-weight="700" fill="#38bdf8">③ Apollia Hub</text>
+    <text x="555" y="155" text-anchor="middle" fill="#b9d4e2">BES2800BP · 圆屏</text>
+    <text x="555" y="174" text-anchor="middle" fill="#b9d4e2">聚合 · 可视化 · 时钟同步</text>
+    <text x="555" y="193" text-anchor="middle" fill="#7fa3b8">本仓 demo 的运行主体</text>
+
+    <rect x="690" y="105" width="200" height="96" rx="12" fill="#0d1e36" stroke="#2dd4bf" stroke-opacity="0.5"/>
+    <text x="790" y="132" text-anchor="middle" font-size="14" font-weight="700" fill="#2dd4bf">④ PC / DAW</text>
+    <text x="790" y="155" text-anchor="middle" fill="#b9d4e2">USB-MIDI（已实现）</text>
+    <text x="790" y="174" text-anchor="middle" fill="#b9d4e2">GarageBand · Ableton</text>
+    <text x="790" y="193" text-anchor="middle" fill="#7fa3b8">规划：OSC · MIDI 2.0</text>
+  </g>
+
+  <!-- arrows -->
+  <g stroke="#5f8aa3" stroke-width="2" fill="none">
+    <path d="M204 153 L242 153" marker-end="url(#arr)"/>
+    <path d="M424 153 L462 153" marker-end="url(#arr)"/>
+    <path d="M644 153 L682 153" marker-end="url(#arr)"/>
+  </g>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#5f8aa3"/>
+    </marker>
+  </defs>
+  <g font-size="12" fill="#8fb3c7" text-anchor="middle">
+    <text x="232" y="142">SPI/I2C</text>
+    <text x="452" y="142">BLE</text>
+    <text x="672" y="142">USB-C</text>
+  </g>
+
+  <!-- multi-player mesh -->
+  <path d="M335 100 Q 555 -8 775 100" fill="none" stroke="#bf5af2" stroke-opacity="0.6" stroke-dasharray="6 5"/>
+  <text x="555" y="58" text-anchor="middle" font-size="13" fill="#bf5af2">BLE Mesh · Siren Choir 多人合唱团（鼓 / 铺底 / 节奏 / 主音 / 主唱）</text>
+
+  <!-- gesture annotations -->
+  <g font-size="12">
+    <rect x="30" y="238" width="420" height="64" rx="10" fill="#0a1428" stroke="#1e3a5a"/>
+    <text x="240" y="262" text-anchor="middle" fill="#41e0d0">IMU 体感（mock：Hub 上拖动核心 / 点 INST）</text>
+    <text x="240" y="284" text-anchor="middle" fill="#9fc0d2">手上下位移 → 效果湿度 CC91　·　握拳旋转 → 乐器切换 PC</text>
+
+    <rect x="470" y="238" width="420" height="64" rx="10" fill="#0a1428" stroke="#1e3a5a"/>
+    <text x="680" y="262" text-anchor="middle" fill="#ffb020">输入映射（mock：Hub 上触摸传感器弧）</text>
+    <text x="680" y="284" text-anchor="middle" fill="#9fc0d2">左手 7 环 → 顺阶和弦　·　右手 7 环 → 自然音阶旋律</text>
+  </g>
+</svg>

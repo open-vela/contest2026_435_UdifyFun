@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, sans-serif">
+  <defs>
+    <linearGradient id="hbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#050b1a"/>
+      <stop offset="1" stop-color="#0a2540"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7de3f2"/>
+      <stop offset="1" stop-color="#0b2a3f"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="300" rx="18" fill="url(#hbg)"/>
+
+  <!-- ambient bubbles -->
+  <g fill="#2dd4bf" fill-opacity="0.18">
+    <circle cx="92" cy="210" r="4"/><circle cx="120" cy="160" r="2.5"/>
+    <circle cx="708" cy="190" r="4"/><circle cx="682" cy="140" r="2.5"/>
+    <circle cx="150" cy="248" r="2"/><circle cx="650" cy="252" r="2"/>
+  </g>
+
+  <!-- sonar rings behind the siren core -->
+  <g fill="none" stroke="#2dd4bf">
+    <circle cx="400" cy="216" r="52" stroke-opacity="0.35"/>
+    <circle cx="400" cy="216" r="84" stroke-opacity="0.18"/>
+    <circle cx="400" cy="216" r="118" stroke-opacity="0.09"/>
+  </g>
+
+  <!-- left hand chord arc -->
+  <g>
+    <circle cx="318" cy="169" r="6" fill="#ffb020"/>
+    <circle cx="311" cy="184" r="6" fill="#6c8cff"/>
+    <circle cx="306" cy="199" r="6" fill="#ffb020"/>
+    <circle cx="305" cy="216" r="6" fill="#6c8cff"/>
+    <circle cx="306" cy="233" r="6" fill="#ffb020"/>
+    <circle cx="311" cy="248" r="6" fill="#6c8cff"/>
+    <circle cx="318" cy="263" r="6" fill="#ff5470"/>
+  </g>
+
+  <!-- right hand melody arc -->
+  <g fill="#41e0d0">
+    <circle cx="482" cy="169" r="6"/><circle cx="489" cy="184" r="6"/>
+    <circle cx="494" cy="199" r="6"/><circle cx="495" cy="216" r="6"/>
+    <circle cx="494" cy="233" r="6"/><circle cx="489" cy="248" r="6"/>
+    <circle cx="482" cy="263" r="6"/>
+  </g>
+
+  <!-- notes swirling into the core -->
+  <g>
+    <circle cx="352" cy="196" r="3.2" fill="#ffb020" fill-opacity="0.9"/>
+    <circle cx="372" cy="228" r="2.6" fill="#41e0d0" fill-opacity="0.8"/>
+    <circle cx="440" cy="200" r="2.6" fill="#6c8cff" fill-opacity="0.7"/>
+  </g>
+
+  <!-- siren core -->
+  <circle cx="400" cy="216" r="27" fill="url(#orb)" stroke="#38bdf8" stroke-width="2"/>
+  <circle cx="400" cy="216" r="27" fill="none" stroke="#ff6b8a" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="4 5"/>
+
+  <!-- titles -->
+  <text x="400" y="80" text-anchor="middle" font-size="52" font-weight="700" letter-spacing="12" fill="#eaf6fa">APOLLIA</text>
+  <text x="400" y="112" text-anchor="middle" font-size="19" fill="#9cc4d6">海妖之歌 · 可穿戴和弦 / 旋律乐器 × 圆屏 Hub</text>
+  <text x="400" y="140" text-anchor="middle" font-size="15" font-style="italic" fill="#2dd4bf">"Play the song that lures the world."</text>
+
+  <!-- footer -->
+  <text x="400" y="285" text-anchor="middle" font-size="12" fill="#5f8398">2026 首届 openvela AI 硬件开发者大赛 · Team 435 UdifyFun · BES2800BP</text>
+</svg>

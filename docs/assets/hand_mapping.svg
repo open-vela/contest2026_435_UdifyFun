@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 440" width="880" height="440" font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, sans-serif">
+  <rect width="880" height="440" rx="16" fill="#050b1a"/>
+  <text x="440" y="36" text-anchor="middle" font-size="19" font-weight="700" fill="#eaf6fa">双手映射 — 左手和弦 · 右手旋律（C 大调示例，可整体移调）</text>
+
+  <!-- ===== left hand panel ===== -->
+  <rect x="26" y="56" width="410" height="320" rx="14" fill="#0a1428" stroke="#1e3a5a"/>
+  <text x="231" y="84" text-anchor="middle" font-size="14" font-weight="700" fill="#ffb020">左手 · 7 环和弦</text>
+
+  <g font-size="10" fill="#5f8398" text-anchor="middle">
+    <text x="47" y="163">上</text><text x="47" y="253">中</text>
+  </g>
+
+  <!-- finger headers -->
+  <g font-size="12" fill="#9fc0d2" text-anchor="middle">
+    <text x="112" y="118">食指</text>
+    <text x="205" y="118">中指</text>
+    <text x="298" y="118">无名指</text>
+    <text x="388" y="118">小指</text>
+  </g>
+
+  <!-- index finger -->
+  <circle cx="112" cy="160" r="13" fill="#ffb020"/>
+  <text x="112" y="188" text-anchor="middle" font-size="12" font-weight="700" fill="#ffb020">I 级</text>
+  <text x="112" y="204" text-anchor="middle" font-size="11" fill="#cfe3ee">C 大三</text>
+  <text x="112" y="219" text-anchor="middle" font-size="10" fill="#7fa3b8">C4 E4 G4</text>
+  <circle cx="112" cy="250" r="13" fill="#6c8cff"/>
+  <text x="112" y="278" text-anchor="middle" font-size="12" font-weight="700" fill="#6c8cff">II 级</text>
+  <text x="112" y="294" text-anchor="middle" font-size="11" fill="#cfe3ee">D 小三</text>
+  <text x="112" y="309" text-anchor="middle" font-size="10" fill="#7fa3b8">D4 F4 A4</text>
+
+  <!-- middle finger -->
+  <circle cx="205" cy="160" r="13" fill="#ffb020"/>
+  <text x="205" y="188" text-anchor="middle" font-size="12" font-weight="700" fill="#ffb020">IV 级</text>
+  <text x="205" y="204" text-anchor="middle" font-size="11" fill="#cfe3ee">F 大三</text>
+  <text x="205" y="219" text-anchor="middle" font-size="10" fill="#7fa3b8">F4 A4 C5</text>
+  <circle cx="205" cy="250" r="13" fill="#6c8cff"/>
+  <text x="205" y="278" text-anchor="middle" font-size="12" font-weight="700" fill="#6c8cff">III 级</text>
+  <text x="205" y="294" text-anchor="middle" font-size="11" fill="#cfe3ee">E 小三</text>
+  <text x="205" y="309" text-anchor="middle" font-size="10" fill="#7fa3b8">E4 G4 B4</text>
+
+  <!-- ring finger -->
+  <circle cx="298" cy="160" r="13" fill="#ffb020"/>
+  <text x="298" y="188" text-anchor="middle" font-size="12" font-weight="700" fill="#ffb020">V 级</text>
+  <text x="298" y="204" text-anchor="middle" font-size="11" fill="#cfe3ee">G 大三</text>
+  <text x="298" y="219" text-anchor="middle" font-size="10" fill="#7fa3b8">G4 B4 D5</text>
+  <circle cx="298" cy="250" r="13" fill="#6c8cff"/>
+  <text x="298" y="278" text-anchor="middle" font-size="12" font-weight="700" fill="#6c8cff">VI 级</text>
+  <text x="298" y="294" text-anchor="middle" font-size="11" fill="#cfe3ee">A 小三</text>
+  <text x="298" y="309" text-anchor="middle" font-size="10" fill="#7fa3b8">A3 C4 E4</text>
+
+  <!-- pinky -->
+  <circle cx="388" cy="205" r="13" fill="#ff5470"/>
+  <text x="388" y="233" text-anchor="middle" font-size="12" font-weight="700" fill="#ff5470">VII 级</text>
+  <text x="388" y="249" text-anchor="middle" font-size="11" fill="#cfe3ee">B 减三</text>
+  <text x="388" y="264" text-anchor="middle" font-size="10" fill="#7fa3b8">B3 D4 F4</text>
+
+  <!-- ===== right hand panel ===== -->
+  <rect x="446" y="56" width="408" height="320" rx="14" fill="#0a1428" stroke="#1e3a5a"/>
+  <text x="650" y="84" text-anchor="middle" font-size="14" font-weight="700" fill="#41e0d0">右手 · 7 环旋律</text>
+
+  <g fill="#41e0d0">
+    <circle cx="490" cy="165" r="13"/><circle cx="543" cy="165" r="13"/>
+    <circle cx="597" cy="165" r="13"/><circle cx="650" cy="165" r="13"/>
+    <circle cx="703" cy="165" r="13"/><circle cx="757" cy="165" r="13"/>
+    <circle cx="810" cy="165" r="13"/>
+  </g>
+  <g font-size="12" fill="#cfe3ee" text-anchor="middle">
+    <text x="490" y="199">C5</text><text x="543" y="199">D5</text>
+    <text x="597" y="199">E5</text><text x="650" y="199">F5</text>
+    <text x="703" y="199">G5</text><text x="757" y="199">A5</text>
+    <text x="810" y="199">B5</text>
+  </g>
+
+  <!-- finger brackets -->
+  <g stroke="#5f8398" stroke-width="1.5" fill="none">
+    <path d="M468 218 L468 224 L515 224 L515 218"/>
+    <path d="M575 218 L575 224 L622 224 L622 218"/>
+    <path d="M681 218 L681 224 L728 224 L728 218"/>
+    <path d="M796 218 L796 224 L824 224 L824 218"/>
+  </g>
+  <g font-size="11" fill="#9fc0d2" text-anchor="middle">
+    <text x="491" y="242">食指</text>
+    <text x="598" y="242">中指</text>
+    <text x="704" y="242">无名指</text>
+    <text x="810" y="242">小指</text>
+  </g>
+
+  <text x="650" y="292" text-anchor="middle" font-size="11" fill="#8fb3c7">顺序同左手：食指上关节 → 食指中关节 → 中指上 → … → 小指</text>
+  <text x="650" y="314" text-anchor="middle" font-size="11" fill="#8fb3c7">自然音阶单音，配合左手和弦即兴旋律</text>
+  <text x="650" y="348" text-anchor="middle" font-size="11" font-style="italic" fill="#2dd4bf">右手 IMU：上下位移 → 效果湿度（CC91）</text>
+
+  <!-- legend -->
+  <g font-size="12">
+    <circle cx="120" cy="410" r="7" fill="#ffb020"/>
+    <text x="134" y="415" fill="#b9d4e2">大三和弦（1 / 4 / 5 级 · 上关节）</text>
+    <circle cx="392" cy="410" r="7" fill="#6c8cff"/>
+    <text x="406" y="415" fill="#b9d4e2">小三和弦（2 / 3 / 6 级 · 中关节）</text>
+    <circle cx="664" cy="410" r="7" fill="#ff5470"/>
+    <text x="678" y="415" fill="#b9d4e2">减三和弦（7 级 · 小指）</text>
+  </g>
+</svg>
